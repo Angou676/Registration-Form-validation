@@ -1,0 +1,139 @@
+#main{
+  display:flex;
+}
+.App {
+  float: left;
+  width:50%;
+  margin:auto;
+  margin-left:-4%;
+}
+#leftBox{
+  height:700px;
+  width:30%;
+  background: grey;
+}
+h1,h3{
+  margin-left: 15%;
+}
+
+form{
+  width:70%;
+  margin:auto;
+
+}
+.resBlock input{
+  height:33px;
+  margin-top: 15px;
+  width:100%;
+  background:rgb(187, 184, 184);
+  border-style:none;
+  color:rgb(122, 117, 117);
+}
+
+select{
+  height:35px;
+  width:100%;
+  background:rgb(187, 184, 184);
+  margin-top: 15px;
+  border-style:none;
+  color:rgb(122, 117, 117);
+}
+.buttonSave{
+
+  height:35px;
+  width:100%;
+  background:rgb(4, 4, 207);
+  color:white
+}
+.disableBtn{
+  margin-top: 30px;
+  height:35px;
+  width:100%;
+  background:rgb(170, 170, 172);
+  color:white
+}
+
+#countrycode{
+  width:20%;
+  margin-right:15px;
+}
+#phno{
+  width:75%;
+}
+
+input[type='date']::before {
+  content: attr(placeholder);
+}
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+
+@media only screen and (max-width: 580px) 
+{
+  #leftBox{
+    display: none;
+  }
+ 
+.App {
+  float: left;
+  width:100%;
+  height:500px;
+  margin:auto;
+  margin-left:-5%;
+}
+
+form{
+  width:70%;
+  margin:auto;
+  height:300px;
+}
+.resBlock input{
+  height:35px;
+  margin-bottom: 20px;
+  width:99%;
+  background:rgb(187, 184, 184);
+  border-style:none;
+ 
+}
+select{
+  height:35px;
+  width:100%;
+  background:rgb(187, 184, 184);
+  margin-bottom: 25px;
+  border-style:none;
+}
+.buttonSave{
+  height:35px;
+  width:100%;
+  background:rgb(4, 4, 207);
+  color:white
+}
+.disableBtn{
+  height:35px;
+  width:100%;
+  background:rgb(170, 170, 172);
+  color:white
+}
+
+#ccode{
+  width:20%;
+  margin-right:15px;
+}
+#num{
+  width:75%
+}
+
+
+
+input[type='date']::before {
+  content: attr(placeholder);
+}
+}
